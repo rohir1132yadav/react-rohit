@@ -1,17 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import KgButton from "./KgButton";
+import Hello from "./Hello";
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1>rohit and coading</h1>
-      
-    </>
-  )
+function App(){
+  return <div>
+    <h1>
+      This is the best react Learning
+    </h1>
+    <Hello></Hello>
+    <KgButton></KgButton>
+    
+  </div>
 }
-
-export default App
+export default App;
